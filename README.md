@@ -28,13 +28,13 @@ Course contents are based on the use of Codecraft which simplifies data collecti
 * Hardware requirements (boards, modules):
 
 
-| ![](./images/Wio-Terminal.jpg =120x102)                                   | ![](./images/Grove-Cables.jpg =120x102)                                                                           | ![](./images/Grove-Multichannel-Gas-Sensor.jpg =120x94)                                                        | ![](./images/Grove-Thermal-Imaging-Camera.png =120x92)                                                                              |
+| ![](./images/Wio-Terminal.jpg)                                   | ![](./images/Grove-Cables.jpg)                                                                           | ![](./images/Grove-Multichannel-Gas-Sensor.jpg)                                                        | ![](./images/Grove-Thermal-Imaging-Camera.png)                                                                              |
 | :-------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) × 1 | [Grove cables](https://www.seeedstudio.com/Grove-Universal-4-Pin-20cm-Unbuckled-Cable-5-PCs-Pack-p-749.html) × 4 | [Grove - Multichannel Gas Sensor v2](https://www.seeedstudio.com/Grove-Multichannel-Gas-Sensor-v2-p-4569.html) | [Grove - Thermal Imaging Camera](https://www.seeedstudio.com/Grove-Thermal-Imaging-Camera-IR-Array-MLX90640-110-degree-p-4334.html) |
 
 * Software requirements (possible platform or language): [Codecraft](https://ide.tinkergen.com)
 
-  ![](assets/20210918_103036_Codecraft-logo.png =150x38)
+  ![](assets/20210918_103036_Codecraft-logo.png)
 
 ### The general steps of each project are as follows：
 
@@ -78,7 +78,7 @@ Course contents are based on the use of Codecraft which simplifies data collecti
 
 ## PDFs
 
-![](https://github.com/LaurentTreguier/vscode-simple-icons/raw/2b8be90008925072f639f4a2ce488e5a00bb27c4/source/simple-icons/file-pdf.svg =25x25) You can [download](./pdf/No-code_Programming_to_Get_Started_with_TinyML.pdf) the PDF version of this course.
+You can [download](./pdf/No-code_Programming_to_Get_Started_with_TinyML.pdf) the PDF version of this course.
 
 ![](./images/Book-pdf.png =120x118)
 
