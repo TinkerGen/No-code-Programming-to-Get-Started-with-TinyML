@@ -2,13 +2,15 @@
 [![image](https://img.shields.io/badge/build-Codecraft-%233E9EF9)](https://ide.tinkergen.com/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
+[![Chinese](https://img.shields.io/badge/-Chinese-yellow)](translations/README.zh-cn.md)
+
 # No-code Programming to Get Started with TinyML
 
 > Designed to introduce beginners to the basics of Embedded Machine Learning with Wio Terminal and Codecraft graphical programming.
 
 ## Hello World of AI
 
-![](./images/Hello-World-Of-AI-title.png)
+[![Hello World of AI](./images/Hello-World-Of-AI-title.png)](https://www.seeedstudio.com/wio-terminal-tinyml.html)
 
 [Seeed Studio](https://www.seeedstudio.com/) released a feature in June 2021: **[Hello World of AI](https://www.seeedstudio.com/wio-terminal-tinyml.html)**, where [Codecraft](https://ide.tinkergen.com/https:/) Graphical Programming for TinyML and a number of TinyML projects using [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.htmlhttps:/) were introduced and demonstrated. TinkerGen is the team responsible for educational products at Seeed Studio, and we believe that Codecraft's support for TinyML is of great importance, as it significantly lowers the barrier for users to learn and use TinyML technology. Without having to deal with a complex programming environment and knowledge of algorithms, users can start collecting data, training models and programming deployments for TinyML projects easily and quickly through browsers and graphical programming.
 To this end, the team has written the TinyML with Wio Terminal Free Course for Beginners and made it available for download as a PDF. To help more users and educational institutions use and promote this exciting technology. We have further open sourced the entire course on GitHub.
@@ -28,7 +30,7 @@ Course contents are based on the use of Codecraft which simplifies data collecti
 * Hardware requirements (boards, modules):
 
 
-| ![](./images/Wio-Terminal.jpg)                                   | ![](./images/Grove-Cables.jpg)                                                                           | ![](./images/Grove-Multichannel-Gas-Sensor.jpg)                                                        | ![](./images/Grove-Thermal-Imaging-Camera.png)                                                                              |
+| ![](./images/Wio-Terminal.png)                                   | ![](./images/Grove-Cable.png)                                                                           | ![](./images/Grove-Multichannel-Gas-Sensor.png)                                                        | ![](./images/Grove-Thermal-Imaging-Camera.png)                                                                              |
 | :-------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) × 1 | [Grove cables](https://www.seeedstudio.com/Grove-Universal-4-Pin-20cm-Unbuckled-Cable-5-PCs-Pack-p-749.html) × 4 | [Grove - Multichannel Gas Sensor v2](https://www.seeedstudio.com/Grove-Multichannel-Gas-Sensor-v2-p-4569.html) | [Grove - Thermal Imaging Camera](https://www.seeedstudio.com/Grove-Thermal-Imaging-Camera-IR-Array-MLX90640-110-degree-p-4334.html) |
 
