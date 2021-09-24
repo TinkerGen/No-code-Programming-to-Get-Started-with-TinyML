@@ -1,3 +1,4 @@
+# Lesson 01 Introduction to TinyML using Wio Terminal and Codecraft
 ## Theory 
 ### Machine Learning and Deep Learning
 Machine learning is a branch of Artificial Intelligence (AI) that focuses on building applications that learn from data and improve their accuracy over time. This process is carried out without using traditional rule-based programming. Machine learning enables machines to work by observing, classifying, and learning from mistakes just like human beings. Deep learning is a subset of machine learning that uses deep artificial neural networks (hence the name) to learn from large amounts of data.
