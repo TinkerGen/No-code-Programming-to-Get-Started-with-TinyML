@@ -4,33 +4,37 @@
 Machine learning is a branch of Artificial Intelligence (AI) that focuses on building applications that learn from data and improve their accuracy over time. This process is carried out without using traditional rule-based programming. Machine learning enables machines to work by observing, classifying, and learning from mistakes just like human beings. Deep learning is a subset of machine learning that uses deep artificial neural networks (hence the name) to learn from large amounts of data.
 
 
-![](https://cdn.nlark.com/yuque/0/2021/jpeg/2523686/1618292047194-382ef73d-9757-42ac-8556-8b9a0a90e0e8.jpeg#from=url&id=cOMHs&margin=%5Bobject%20Object%5D&originHeight=651&originWidth=631&originalType=binary&ratio=1&status=done&style=none)
+![Artificial Intelligence, Machine Learning, and Deep Learning. ](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/ai-ml-dl.png)
 Artificial Neural Networks (ANNs) are the network of neurons that attempt to emulate a composition human brain. ANNs are created by computer programming which behaves like the brain cells that connect to each other. 
 In order to learn ANNs, you need to prepare a tremendous amount of information which is called "Train Set". When you are trying to teach an ANN how to distinguish cats and dogs, the train set would provide thousands of images tagged as dogs and cats that allow the neural network to learn. Once a neural network is trained with a significant amount of data, it will be able to classify future data based on what it thinks to see (or hear, depending on the data set) throughout the different units. During the training period, the output of the machine is compared to the human-provided description of what should be observed. If they are the same, the machine is validated. If it's incorrect, it uses backpropagation to adjust its learning. Back Propagation is the process of going back through the layers to tweak the mathematical equation. Known as "Deep Learning", this is what makes a network intelligent.
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/21503014/1627303432532-f9bb6d3b-79c1-4815-a91b-a0763059966c.png#clientId=udabf767b-07fe-4&from=paste&height=231&id=Ww1VU&margin=%5Bobject%20Object%5D&name=image.png&originHeight=461&originWidth=906&originalType=binary&ratio=1&size=514639&status=done&style=none&taskId=u2ffec1b9-06fe-49c9-ba67-9257e0b701d&width=453)(by yihui)
+![Trainning Testing](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/how-supervised.jpg)
 #### What is TinyMl and why is TinyML important?
 Normally, Deep Neural Networks require rather powerful computing resources to be trained and deployed. However, a branch of ML on the Edge or Embedded Machine Learning called TinyML has appeared recently. It represents a technique (or field of study) in machine learning and embedded systems that explores which machine-learning applications (once reduced, optimized, and integrated) can be run on devices as small as microcontrollers.
-![](https://cdn.nlark.com/yuque/0/2021/png/2523686/1618284543948-45b23418-e92f-46ab-813b-956b4d378662.png?x-oss-process=image%2Fresize%2Cw_500#height=123&id=VOHiQ&margin=%5Bobject%20Object%5D&originHeight=491&originWidth=500&originalType=binary&ratio=1&status=done&style=none&width=125)
+![TinyML](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/TinyML.png)
+
 The ML, as you might have guessed stands for Machine Learning. Tiny in TinyML means that the ML models are optimized to run on very low-power and small-footprint devices such as various microcontrollers (MCUs).
-Embedded devices come in all sorts of shapes and sizes, starting from “embedded supercomputer” Nvidia Jetson Xavier AGX to the tiniest of microcontrollers, for example, ESP32 or Cortex M0. 
-![](https://cdn.nlark.com/yuque/0/2021/png/2523686/1618284585850-dbe48204-3577-4d51-8e7e-e6a4b3616c3f.png?x-oss-process=image%2Fresize%2Cw_740#height=292&id=CiPct&margin=%5Bobject%20Object%5D&originHeight=389&originWidth=740&originalType=binary&ratio=1&status=done&style=none&width=555)
+Embedded devices come in all sorts of shapes and sizes, starting from “embedded supercomputer” Nvidia Jetson Xavier AGX to the tiniest of microcontrollers, for example, ESP32 or Cortex M0.
+
+![Nvidia Jetson Xavier AGX](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/Nvidia-Jetson-Xavier-AGX.png)
+
 The following figure shows the GeeekNET ESP 32 development board.
-![](https://cdn.nlark.com/yuque/0/2021/jpeg/2392200/1625205197163-0ed6871d-9d20-416d-a899-564c7d0f920d.jpeg#height=224&id=ufe9ded9c&margin=%5Bobject%20Object%5D&originHeight=525&originWidth=700&originalType=binary&ratio=1&status=done&style=none&width=299)
+![GeeekNET ESP 32](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/GeeekNET-ESP-32.jpeg)
+
 **Why embedded ML on microcontrollers is classified in a special category and even given its own cool name?**
+
 The answer is that it comes with its own set of advantages and limitations. The attraction of TinyML is in fact that MCUs are ubiquitous, small, consume small amounts of energy, and are comparatively cheap. Take ARM Cortex M0+  and the little Seeeduino XIAO board which is built around it – the board is as small as a thumb(20×17.5mm)and it consumes only 1.33 mAh of power (which means it can work ~112 hours on a 150 mA battery. (This time can be increased even further if the device is put in deep sleep). It costs as little as 5 USD.
-![](https://cdn.nlark.com/yuque/0/2021/jpeg/2392200/1625205482857-dee5477b-004e-48fb-980a-b9cbcfd9e10d.jpeg#height=263&id=ue1496419&margin=%5Bobject%20Object%5D&originHeight=1050&originWidth=1400&originalType=binary&ratio=1&status=done&style=none&width=350)
 
+![Seeeduino XIAO](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/XIAO.jpeg)
 
-Thanks to recent improvements in model optimization and the emergence of frameworks specifically created for running machine learning model inference on microcontrollers. It has become possible to give more intelligence to these tiny devices. We now can deploy neural networks on microcontrollers for **audio scene recognition** (for example, elephant activity or sound of breaking glass),** hot-word detection**(to activate device with a specific phrase) or even for simple **image recognition** tasks. The devices with embedded microcontrollers can be used to give new life and meaning to old sensors. 
-​
+Thanks to recent improvements in model optimization and the emergence of frameworks specifically created for running machine learning model inference on microcontrollers. It has become possible to give more intelligence to these tiny devices. We now can deploy neural networks on microcontrollers for **audio scene recognition** (for example, elephant activity or sound of breaking glass), **hot-word detection** (to activate device with a specific phrase) or even for simple **image recognition** tasks. The devices with embedded microcontrollers can be used to give new life and meaning to old sensors.
 
 With Codecraft and Wio Terminal, it is now possible to experience the entire process of embedded machine learning without having to deal with a complex programming environment and extensive programming knowledge.
 ## Preparation
 ### Wio Terminal
 Wio Terminal is the perfect tool for getting started with IoT and TinyML. It is designed and produced by Seeed Studio and is well supported by various TinyML reasoning frameworks.
-![](https://cdn.nlark.com/yuque/0/2021/jpeg/2392200/1625211543523-e2dbd361-1d8d-4ffc-b80b-65668ba978c2.jpeg#height=270&id=u40a5390a&margin=%5Bobject%20Object%5D&originHeight=1080&originWidth=1920&originalType=binary&ratio=1&status=done&style=none&width=480)
+![Wio Terminal](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/Wio-Terminal.jpeg)
 The Wio Terminal is using an ATSAMD51P19 microcontroller with ARM Cortex-M4F running at 120MHz (boost up to 200MHz), 4MB of external flash memory, and 192KB of RAM. Wireless connectivity with Realtek RTL8720DN support. It is compatible with Arduino and MicroPython. It supports both Bluetooth and Wi-Fi providing a solid foundation for IoT projects. There is a 2.4-inch LCD screen on Wio Terminal, an on-board IMU (LIS3DHTR), microphone, buzzer, microSD card slot, light sensor, and IR emitter (IR 940nm). Most importantly there are two multi-functional Grove ports onboard for the Grove ecosystem and Raspberry Pi compatible 40-pin GPIO pins for additional add-on support.
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/21503014/1626848811495-5ef4d412-42ff-45a3-a570-1b69bc3b65ef.png#clientId=u4c321ef0-4f57-4&from=paste&height=716&id=uf3fdf8c8&margin=%5Bobject%20Object%5D&name=image.png&originHeight=716&originWidth=1161&originalType=binary&ratio=1&size=223670&status=done&style=none&taskId=ufa14e01b-d38f-42c4-90e5-e7a6231c077&width=1161)​
+![Wio Terminal](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/Wio-Terminal-2.png)​
 ### Codecraft
 Software-wise we will be using Codecraft, a graphical programming platform. Powered by Edge Impulse, TinyML is easily accessible by beginners using Codecraft. It provides a beginner-friendly (yet powerful) web interface and toolkit for the whole TinyMl pipeline starting from data collection all the way up to model deployment and extensive use.
 Codecraft is a user-friendly development platform for machine learning on edge devices.
@@ -39,56 +43,79 @@ Codecraft is a user-friendly development platform for machine learning on edge d
 **So, let's quickly go through how to use it to achieve our machine learning journey.**
  
 Click the icon of Wio Terminal in Codecraft home screen to enter Wio Terminal's embedded machine learning interface.
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/21503014/1626850845857-e8140930-4362-43f3-a594-8aabc8d548a5.png#clientId=u4c321ef0-4f57-4&from=paste&height=1209&id=u0c30aae5&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1209&originWidth=2554&originalType=binary&ratio=1&size=422153&status=done&style=stroke&taskId=uc955e101-2523-4c2f-98e0-30b722f0ed3&width=2554)
+![Codecraft home screen](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/L01-cc-01.png)
 Then
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/21503014/1627986966570-54867b31-ba86-410f-8cc8-8f6539786ba4.png#clientId=ue1f8f7bf-d880-4&from=paste&height=1269&id=u20e42d29&margin=%5Bobject%20Object%5D&name=image.png&originHeight=2538&originWidth=2668&originalType=binary&ratio=1&size=651603&status=done&style=none&taskId=uc31c3246-6513-47ed-bdf7-5c2f153059e&width=1334)
+![Model Creation](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/L01-cc-02.png)
 #### ​
 
 #### 1. Model Creation
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/21503014/1627643167501-71e25abe-b012-4aee-bfdd-d0acec042108.png#clientId=uf41baf02-e3b0-4&from=paste&height=1289&id=Yblhj&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1289&originWidth=2602&originalType=binary&ratio=1&size=279634&status=done&style=none&taskId=u6feee5b3-f090-452d-b501-0d94733693a&width=2602)
+![Model Creation](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/L01-cc-03.png)
 
+![mark-bj_0011_1.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0011_1.png) **Model Creation:** The first step of TinyML. Click "Model Creation" to see the interface of "Creating new models for embedded machine learning".
 
-![mark-bj_0011_1.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101178957-a1003b40-2b26-4a25-93ce-02eedc5cb3dc.png#height=24&id=mkJNh&name=mark-bj_0011_1.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1338&status=done&style=none&width=24)  **Model Creation:** The first step of TinyML. Click "Model Creation" to see the interface of "Creating new models for embedded machine learning".
-![mark-bj_0010_2.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101274502-4dfa1e71-0e90-499b-8e4d-8f4dfb79e321.png#height=24&id=I8sj6&margin=%5Bobject%20Object%5D&name=mark-bj_0010_2.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1671&status=done&style=none&width=24)  [**Return to Codecraft Home Page**](https://www.yuque.com/tinkergen-help-cn/codecraft/back_cover)**: **You can click on it to return back to the Codecraft Home Page. If you have not saved the current program, it will prompt you to save it before you leave.
-![mark-bj_0009_3.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101307604-6939a259-e128-44ac-8f62-76100747258f.png#height=24&id=QPo0n&margin=%5Bobject%20Object%5D&name=mark-bj_0009_3.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1715&status=done&style=none&width=24)  [**Language**](https://www.yuque.com/tinkergen-help-cn/codecraft/language_switching)**:** Upon clicking this, the language options appear. You can change the language here.
-![mark-bj_0008_4.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101349014-e8d1ddee-d10f-4ec5-80b1-25f9e64b07e0.png#height=24&id=tOSvv&margin=%5Bobject%20Object%5D&name=mark-bj_0008_4.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1559&status=done&style=none&width=24) **	Files: **You can create a new online project or open a local project. You can save your projects to the cloud from a computer following the on-screen instruction.
-![mark-bj_0007_5.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101371336-def937f2-f6db-4ff9-9ca5-9f59571a742b.png#height=24&id=v9MBo&margin=%5Bobject%20Object%5D&name=mark-bj_0007_5.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1667&status=done&style=none&width=24)  [**Course Examples**](https://www.yuque.com/tinkergen-help-cn/codecraft/ui_courses)**: **Here you can check the courses about Codecraft.
-![mark-bj_0006_6.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101379362-d8350889-1771-4c9b-8788-376b8314ce5c.png#height=24&id=gqn7O&margin=%5Bobject%20Object%5D&name=mark-bj_0006_6.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1730&status=done&style=none&width=24)  [**Save Files Online**](https://www.yuque.com/tinkergen-help-cn/codecraft/ui_save): You can modify your project names and save them to the cloud. (Codecraft should be connected to the internet and logged in with your Codecraft account).  
-![mark-bj_0005_7.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101386971-6df623fc-4480-45e7-854e-b9a2326cbccf.png#height=24&id=GMyT9&margin=%5Bobject%20Object%5D&name=mark-bj_0005_7.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1490&status=done&style=none&width=24)  [**Blocks/Codes**](https://www.yuque.com/tinkergen-help-cn/codecraft/ui_code_switching): You can toggle between blocks and code. The Programming language being used here is C.
-![mark-bj_0004_8.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101394302-5a764564-a28a-4fa0-9ff3-56c5ae8cc938.png#height=24&id=VImJc&margin=%5Bobject%20Object%5D&name=mark-bj_0004_8.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1699&status=done&style=none&width=24)  [**Help**](https://www.yuque.com/tinkergen-help-cn/codecraft/ui_help)**: **We always appreciate your suggestions for Codecraft. We can't do better without your involvement.
-![mark-bj_0003_9.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101401684-b64190cc-b220-42b3-a1cf-891437e7ec9b.png#height=24&id=Sm00x&margin=%5Bobject%20Object%5D&name=mark-bj_0003_9.png&originHeight=25&originWidth=25&originalType=binary&ratio=1&size=1701&status=done&style=none&width=24)  [**Login**](https://www.yuque.com/tinkergen-help-cn/codecraft/ui_login)**:** You can visit your cloud projects, account settings, my invitation code, and log out.  If you are not logged in, it will prompt you. 
-![微信图片_20200927231227.png](https://cdn.nlark.com/yuque/0/2020/png/2609084/1601221789246-52c7793d-c6a3-4696-9e86-36f968397543.png#height=26&id=fRzsz&margin=%5Bobject%20Object%5D&name=%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200927231227.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1756&status=done&style=none&width=26)** Model framework according to the sensor:** You can create a model here by selecting the sensor you are going to use. Click the corresponding icon to create a model using a particular sensor. After creating a new model, the interface will automatically jump to the "Data Acquisition" interface.
-![mark-bj_0001_11.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101415454-896091cc-1476-4a51-8cb0-1d3007fb70ba.png#height=24&id=kmIds&margin=%5Bobject%20Object%5D&name=mark-bj_0001_11.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1436&status=done&style=none&width=24)  **My models**: You can click here and view all the models you have created.
-#### 2.Data Acquisition
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/21503014/1627901663107-f2b5ef25-5653-43f9-8d0b-f35a5cae0fa1.png#clientId=ua885da9e-ddc3-4&from=paste&height=1257&id=ud3d1ff69&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1257&originWidth=2982&originalType=binary&ratio=1&size=406666&status=done&style=none&taskId=u5596e53b-d455-4779-8eaa-75779477696&width=2982)
-![mark-bj_0011_1.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101178957-a1003b40-2b26-4a25-93ce-02eedc5cb3dc.png#height=24&id=zZqKf&name=mark-bj_0011_1.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1338&status=done&style=none&width=24)  **Connect:** You can connect your device here.
-![mark-bj_0010_2.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101274502-4dfa1e71-0e90-499b-8e4d-8f4dfb79e321.png#height=24&id=afm4V&margin=%5Bobject%20Object%5D&name=mark-bj_0010_2.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1671&status=done&style=none&width=24)  **Upload: **Click here to upload your program.
-![mark-bj_0009_3.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101307604-6939a259-e128-44ac-8f62-76100747258f.png#height=24&id=ELZMp&margin=%5Bobject%20Object%5D&name=mark-bj_0009_3.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1715&status=done&style=none&width=24)  **Data Acquisition:** The second step of TinyML.
-![mark-bj_0008_4.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101349014-e8d1ddee-d10f-4ec5-80b1-25f9e64b07e0.png#height=24&id=uUmD5&margin=%5Bobject%20Object%5D&name=mark-bj_0008_4.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1559&status=done&style=none&width=24)  [**Catalogue Area**](https://www.yuque.com/tinkergen-help-cn/codecraft/catalogue_area)**: **You can select the blocks you need by category here.
-![mark-bj_0007_5.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101371336-def937f2-f6db-4ff9-9ca5-9f59571a742b.png#height=24&id=SBMlP&margin=%5Bobject%20Object%5D&name=mark-bj_0007_5.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1667&status=done&style=none&width=24) ** Sample Data blocks:** You can get the "default data acquisition program" and blocks related to sample data.
-![mark-bj_0006_6.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101379362-d8350889-1771-4c9b-8788-376b8314ce5c.png#height=24&id=lf2ia&margin=%5Bobject%20Object%5D&name=mark-bj_0006_6.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1730&status=done&style=none&width=24)  **Default data acquisition program:** You can upload the default data acquisition program directly to start the data acquisition journey.
-![mark-bj_0005_7.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101386971-6df623fc-4480-45e7-854e-b9a2326cbccf.png#height=24&id=K5HDX&margin=%5Bobject%20Object%5D&name=mark-bj_0005_7.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1490&status=done&style=none&width=24)  **Operation on model:** Here You can rename and delete the model and its data.
-![mark-bj_0004_8.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101394302-5a764564-a28a-4fa0-9ff3-56c5ae8cc938.png#height=24&id=LelkF&margin=%5Bobject%20Object%5D&name=mark-bj_0004_8.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1699&status=done&style=none&width=24)  **Introduction to data collection steps:** Clicking here will show a pop-up window with the details of the data collection process. 
-![mark-bj_0003_9.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101401684-b64190cc-b220-42b3-a1cf-891437e7ec9b.png#height=24&id=GFaw5&margin=%5Bobject%20Object%5D&name=mark-bj_0003_9.png&originHeight=25&originWidth=25&originalType=binary&ratio=1&size=1701&status=done&style=none&width=24)  **Labels**: There are default labels on the right side of the data acquisition interface. You can add and delete labels. To **Add a **custom label: Click "+". To  **Delete **the label: mouse over the label, an "x" will appear in the upper left corner of the label, click the "x" to delete it. To **Modify **the label: click on the label that will appear to modify the label pop-up window.
-![微信图片_20200927231227.png](https://cdn.nlark.com/yuque/0/2020/png/2609084/1601221789246-52c7793d-c6a3-4696-9e86-36f968397543.png#height=26&id=XbeXg&margin=%5Bobject%20Object%5D&name=%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200927231227.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1756&status=done&style=none&width=26)** Operation on data:** You can delete, rename and download data here.
-#### 3.Training & Deployment:
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/21503014/1627971082837-9d2e82bd-534f-4a0b-b452-75e09a00faa6.png#clientId=u5a229663-314a-4&from=paste&height=2706&id=ud7f8e110&margin=%5Bobject%20Object%5D&name=image.png&originHeight=2706&originWidth=2795&originalType=binary&ratio=1&size=935263&status=done&style=none&taskId=ue2efb615-f7d3-48cb-ba48-a015897a784&width=2795)
+![mark-bj_0010_2.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0010_2.png) **Return to Codecraft Home Page:** You can click on it to return back to the Codecraft Home Page. If you have not saved the current program, it will prompt you to save it before you leave.
 
+![mark-bj_0009_3.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0009_3.png) **Language:** Upon clicking this, the language options appear. You can change the language here.
 
+![mark-bj_0008_4.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0008_4.png) **Files:** You can create a new online project or open a local project. You can save your projects to the cloud from a computer following the on-screen instruction.
 
+![mark-bj_0007_5.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0007_5.png) **Course Examples:** Here you can check the courses about Codecraft.
 
-![mark-bj_0011_1.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101178957-a1003b40-2b26-4a25-93ce-02eedc5cb3dc.png#height=24&id=PsTOf&name=mark-bj_0011_1.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1338&status=done&style=none&width=24)  **Training & Deployment: **The third step of TinyML.
-![mark-bj_0010_2.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101274502-4dfa1e71-0e90-499b-8e4d-8f4dfb79e321.png#height=24&id=QIvFv&margin=%5Bobject%20Object%5D&name=mark-bj_0010_2.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1671&status=done&style=none&width=24)  **Neural network scale:** You can select the suitable neural network size: one of small, medium, and large.
-![mark-bj_0009_3.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101307604-6939a259-e128-44ac-8f62-76100747258f.png#height=24&id=elZwc&margin=%5Bobject%20Object%5D&name=mark-bj_0009_3.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1715&status=done&style=none&width=24)  **Parameters: **Codecraft provides default parameter values for each scale of the model. you can set the number of training cycles (positive integer), the learning rate (0~1 number), and the minimum confidence rating(0~1 number) by yourself.
-![mark-bj_0008_4.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101349014-e8d1ddee-d10f-4ec5-80b1-25f9e64b07e0.png#height=24&id=xgXlS&margin=%5Bobject%20Object%5D&name=mark-bj_0008_4.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1559&status=done&style=none&width=24)  **Start training:** Click "Start Training" to train the model.
-![mark-bj_0007_5.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101371336-def937f2-f6db-4ff9-9ca5-9f59571a742b.png#height=24&id=pITst&margin=%5Bobject%20Object%5D&name=mark-bj_0007_5.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1667&status=done&style=none&width=24)  **Sample data**: The collected data samples can be observed here.
-![mark-bj_0006_6.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101379362-d8350889-1771-4c9b-8788-376b8314ce5c.png#height=24&id=wcPg9&margin=%5Bobject%20Object%5D&name=mark-bj_0006_6.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1730&status=done&style=none&width=24)  **Model Training Report: **You can observe the training results including the accuracy, loss, and performance of the model on Wio Terminal. If the training results are not satisfactory, you can go back to the first step of training the model and select another size of neural network or adjust the parameter settings and train again until you get a model with satisfactory results.
-![mark-bj_0005_7.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101386971-6df623fc-4480-45e7-854e-b9a2326cbccf.png#height=24&id=W4WEl&margin=%5Bobject%20Object%5D&name=mark-bj_0005_7.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1490&status=done&style=none&width=24)  **Log:** During training, the "Log" screen displays a training log. By observing the "Log", you can deduce the model performance.
-![mark-bj_0004_8.png](https://cdn.nlark.com/yuque/0/2020/png/2392200/1599101394302-5a764564-a28a-4fa0-9ff3-56c5ae8cc938.png#height=24&id=W78GD&margin=%5Bobject%20Object%5D&name=mark-bj_0004_8.png&originHeight=26&originWidth=26&originalType=binary&ratio=1&size=1699&status=done&style=none&width=24) **Model deployment: **Click here to deploy the ideal model.
-#### 4.Programming
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/21503014/1627972453614-2764aed1-8ab1-4195-b448-f9f70deafb37.png#clientId=u5a229663-314a-4&from=paste&height=1249&id=udcc34955&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1249&originWidth=1901&originalType=binary&ratio=1&size=229081&status=done&style=none&taskId=u5b1f6353-3786-42b4-a5ca-3404fdb411b&width=1901)
+![mark-bj_0006_6.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0006_6.png) **Save Files Online:** You can modify your project names and save them to the cloud. (Codecraft should be connected to the internet and logged in with your Codecraft account).  
+
+![mark-bj_0005_7.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0005_7.png) **Blocks/Codes:** You can toggle between blocks and code. The Programming language being used here is C.
+
+![mark-bj_0004_8.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0004_8.png) **Help:** We always appreciate your suggestions for Codecraft. We can't do better without your involvement.
+
+![mark-bj_0003_9.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0003_9.png) **Login:** You can visit your cloud projects, account settings, my invitation code, and log out.  If you are not logged in, it will prompt you.
+
+![mark-bj_0001_10.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0001_10.png) **Model framework according to the sensor:** You can create a model here by selecting the sensor you are going to use. Click the corresponding icon to create a model using a particular sensor. After creating a new model, the interface will automatically jump to the "Data Acquisition" interface.
+
+![mark-bj_0001_11.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0001_11.png) **My models:** You can click here and view all the models you have created.
+#### 2. Data Acquisition
+![Data Acquisition](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/L01-cc-04.png)
+
+![mark-bj_0011_1.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0011_1.png) **Connect:** You can connect your device here.
+
+![mark-bj_0010_2.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0010_2.png) **Upload: ** Click here to upload your program.
+
+![mark-bj_0009_3.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0009_3.png)  **Data Acquisition:** The second step of TinyML.
+
+![mark-bj_0008_4.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0008_4.png) **Catalogue Area:** You can select the blocks you need by category here.
+
+![mark-bj_0007_5.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0007_5.png) **Sample Data blocks:** You can get the "default data acquisition program" and blocks related to sample data.
+
+![mark-bj_0006_6.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0006_6.png) **Default data acquisition program:** You can upload the default data acquisition program directly to start the data acquisition journey.
+
+![mark-bj_0005_7.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0005_7.png) **Operation on model:** Here You can rename and delete the model and its data.
+
+![mark-bj_0004_8.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0004_8.png) **Introduction to data collection steps:** Clicking here will show a pop-up window with the details of the data collection process.
+
+![mark-bj_0003_9.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0003_9.png) **Labels:** There are default labels on the right side of the data acquisition interface. You can add and delete labels. To **Add a** custom label: Click "+". **To Delete** the label: mouse over the label, an "x" will appear in the upper left corner of the label, click the "x" to delete it. To **Modify** the label: click on the label that will appear to modify the label pop-up window.
+
+![mark-bj_0001_10.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0001_10.png) **Operation on data:** You can delete, rename and download data here.
+#### 3. Training & Deployment:
+![Training & Deployment](L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/../../images/L01-cc-05.png)
+
+![mark-bj_0011_1.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0011_1.png) **Training & Deployment:** The third step of TinyML.
+
+![mark-bj_0010_2.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0010_2.png) **Neural network scale:** You can select the suitable neural network size: one of small, medium, and large.
+
+![mark-bj_0009_3.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0009_3.png) **Parameters:** Codecraft provides default parameter values for each scale of the model. you can set the number of training cycles (positive integer), the learning rate (0~1 number), and the minimum confidence rating(0~1 number) by yourself.
+
+![mark-bj_0008_4.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0008_4.png) **Start training:** Click "Start Training" to train the model.
+
+![mark-bj_0007_5.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0007_5.png) **Sample data**: The collected data samples can be observed here.
+
+![mark-bj_0006_6.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0006_6.png) **Model Training Report:** You can observe the training results including the accuracy, loss, and performance of the model on Wio Terminal. If the training results are not satisfactory, you can go back to the first step of training the model and select another size of neural network or adjust the parameter settings and train again until you get a model with satisfactory results.
+
+![mark-bj_0005_7.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0005_7.png) **Log:** During training, the "Log" screen displays a training log. By observing the "Log", you can deduce the model performance.
+
+![mark-bj_0004_8.png](/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/mark-bj_0004_8.png) **Model deployment:** Click here to deploy the ideal model.
+#### 4. Programming
+![rogramming](L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/../../images/L01-cc-06.png)
+
 You can complete the program by dragging and dropping the blocks. The course also provides the most concise sample code. You can find the corresponding blocks according to the block color.
 ### Example Tutorials
 To help understand the use of embedded machine learning. We provide 7 template projects. You can learn how to use Codecraft for embedded machine learning based on these template model examples. We hope these examples can help you in building more interesting applications.
 ​
-

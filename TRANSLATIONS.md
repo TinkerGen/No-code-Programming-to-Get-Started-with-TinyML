@@ -4,7 +4,7 @@ We welcome translations for the lessons in this curriculum!
 
 ## Guidelines
 
-There are [**translations**](https://github.com/microsoft/IoT-For-Beginners/tree/main/1-getting-started/lessons/1-introduction-to-iot/translations) folders which contain the translated markdown files.
+There are [**translations**](https://github.com/TinkerGen/No-code-Programming-to-Get-Started-with-TinyML/tree/main/L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/translations) folders which contain the translated markdown files.
 
 Translated lessons should follow this naming convention:
 
@@ -19,7 +19,7 @@ where _[language]_ is a two letter language abbreviation following the ISO 639-1
 
 ## Quizzes
 
-Add your translation to the quiz-app by adding a file here: https://github.com/microsoft/IoT-For-Beginners/tree/main/quiz-app/src/assets/translations. Please don't localize the words 'true' or 'false' however. thanks!
+Add your translation to the quiz-app by adding a file here: https://github.com/TinkerGen/No-code-Programming-to-Get-Started-with-TinyML/labels/translation. Please don't localize the words 'true' or 'false' however. thanks!
 
 ## THANK YOU
 
