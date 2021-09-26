@@ -17,7 +17,7 @@ To this end, the team has written the TinyML with Wio Terminal Free Course for B
 
 ## Course Overview
 
-![](./images/No-code-Programming-to-Get-Started-with-TinyML-title.png)
+![No-code Programming to Get Started with TinyML](./images/No-code-Programming-to-Get-Started-with-TinyML-title.png)
 
 Learn how to train and deploy deep neural network models on Cortex-M core microcontroller devices like Wio Terminal using a graphical programming tool know as Codecraft. Course content features seven detailed step-by-step projects that allow the students to grasp basic ideas about modern Machine Learning and how it can be used in microcontrollers with low-power consumption and smaller footprint to create intelligent, connected systems. After completing this course, students will be able to design and implement their own Machine Learning enabled projects on Cortex-M core microcontrollers starting from defining a problem to gathering data and training neural network models. Finally deploying it to the device to display inference results or control other hardware appliances based on inference data.
 
@@ -29,16 +29,15 @@ Course contents are based on the use of Codecraft which simplifies data collecti
 
 * Hardware requirements (boards, modules):
 
-
-| ![](./images/Wio-Terminal.png)                                            | ![](./images/Grove-Cable.png)                                                                                     | ![](./images/Grove-Multichannel-Gas-Sensor.png)                                                                | ![](./images/Grove-Thermal-Imaging-Camera.png)                                                                                      |
+| ![Wio Terminal](./images/Wio-Terminal.png)                                            | ![Grove cables](./images/Grove-Cable.png)                                                                                     | ![Grove - Multichannel Gas Sensor v2](./images/Grove-Multichannel-Gas-Sensor.png)                                                                | ![Grove - Thermal Imaging Camera](./images/Grove-Thermal-Imaging-Camera.png)                                                                                      |
 | :-------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) × 1 | [Grove cables](https://www.seeedstudio.com/Grove-Universal-4-Pin-20cm-Unbuckled-Cable-5-PCs-Pack-p-749.html) × 4 | [Grove - Multichannel Gas Sensor v2](https://www.seeedstudio.com/Grove-Multichannel-Gas-Sensor-v2-p-4569.html) | [Grove - Thermal Imaging Camera](https://www.seeedstudio.com/Grove-Thermal-Imaging-Camera-IR-Array-MLX90640-110-degree-p-4334.html) |
 
 * Software requirements (possible platform or language): [Codecraft](https://ide.tinkergen.com)
 
-  ![](assets/20210918_103036_Codecraft-logo.png)
+  ![Codecraft logo](assets/20210918_103036_Codecraft-logo.png)
 
-### The general steps of each project are as follows：
+### The general steps of each project are as follows
 
 1. Project Overview: An introduction to the project objectives to be accomplished in the lesson and the results to be achieved.
 2. Background knowledge: The lesson will begin with an introduction to the new hardware and its electrical knowledge.
@@ -49,7 +48,7 @@ Course contents are based on the use of Codecraft which simplifies data collecti
    4. Programming
 4. ML Theory
 
-### ML knowledge：
+### ML knowledge
 
 1. Understand your input: input labels, dataset.
 2. Understand your output: output, training performance.
@@ -60,7 +59,6 @@ Course contents are based on the use of Codecraft which simplifies data collecti
 7. Advanced knowledge of neural network: layers and their details.
 
 ### Curriculum outline
-
 
 | Name                                                                                     | Overview                                                                                                                                                                            | Hardware                                                                                                                                                                                                            |
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -82,6 +80,6 @@ Course contents are based on the use of Codecraft which simplifies data collecti
 
 You can [download](./pdf/No-code_Programming_to_Get_Started_with_TinyML.pdf) the PDF version of this course.
 
-## Help Wanted!
+## Help Wanted
 
 Would you like to contribute a translation? Please read our [translation guidelines](TRANSLATIONS.md) and add input [to one of the translations issues](https://github.com/microsoft/IoT-For-Beginners/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation). If you want to translate into a new language, please raise a new issue for tracking.
