@@ -1,3 +1,5 @@
+# Lesson 02 Motion Recognition by using built-in accelerometer
+
 ## Project Overview
 
 In this lesson, we'll take on a task of gesture recognition where we will attempt to recognize three gestures (FLIP, WAVE, and IDLE) using Wio Terminal's built-in 3-axis accelerometer.
