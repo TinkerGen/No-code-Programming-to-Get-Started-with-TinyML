@@ -1,16 +1,20 @@
 # Lesson 01 Introduction to TinyML using Wio Terminal and Codecraft
-## Theory 
+
+## Theory
+
 ### Machine Learning and Deep Learning
+
 Machine learning is a branch of Artificial Intelligence (AI) that focuses on building applications that learn from data and improve their accuracy over time. This process is carried out without using traditional rule-based programming. Machine learning enables machines to work by observing, classifying, and learning from mistakes just like human beings. Deep learning is a subset of machine learning that uses deep artificial neural networks (hence the name) to learn from large amounts of data.
 
+![Artificial Intelligence, Machine Learning, and Deep Learning](/Lesson-01/images/ai-ml-dl.png)
 
-![Artificial Intelligence, Machine Learning, and Deep Learning. ](/Lesson-01/images/ai-ml-dl.png)
-
-Artificial Neural Networks (ANNs) are the network of neurons that attempt to emulate a composition human brain. ANNs are created by computer programming which behaves like the brain cells that connect to each other. 
+Artificial Neural Networks (ANNs) are the network of neurons that attempt to emulate a composition human brain. ANNs are created by computer programming which behaves like the brain cells that connect to each other.
 In order to learn ANNs, you need to prepare a tremendous amount of information which is called "Train Set". When you are trying to teach an ANN how to distinguish cats and dogs, the train set would provide thousands of images tagged as dogs and cats that allow the neural network to learn. Once a neural network is trained with a significant amount of data, it will be able to classify future data based on what it thinks to see (or hear, depending on the data set) throughout the different units. During the training period, the output of the machine is compared to the human-provided description of what should be observed. If they are the same, the machine is validated. If it's incorrect, it uses backpropagation to adjust its learning. Back Propagation is the process of going back through the layers to tweak the mathematical equation. Known as "Deep Learning", this is what makes a network intelligent.
 
 ![Trainning Testing](/Lesson-01/images/how-supervised.jpg)
+
 #### What is TinyMl and why is TinyML important?
+
 Normally, Deep Neural Networks require rather powerful computing resources to be trained and deployed. However, a branch of ML on the Edge or Embedded Machine Learning called TinyML has appeared recently. It represents a technique (or field of study) in machine learning and embedded systems that explores which machine-learning applications (once reduced, optimized, and integrated) can be run on devices as small as microcontrollers.
 
 ![TinyML](/Lesson-01/images/TinyML.png)
@@ -32,8 +36,11 @@ The answer is that it comes with its own set of advantages and limitations. The 
 Thanks to recent improvements in model optimization and the emergence of frameworks specifically created for running machine learning model inference on microcontrollers. It has become possible to give more intelligence to these tiny devices. We now can deploy neural networks on microcontrollers for **audio scene recognition** (for example, elephant activity or sound of breaking glass), **hot-word detection** (to activate device with a specific phrase) or even for simple **image recognition** tasks. The devices with embedded microcontrollers can be used to give new life and meaning to old sensors.
 
 With Codecraft and Wio Terminal, it is now possible to experience the entire process of embedded machine learning without having to deal with a complex programming environment and extensive programming knowledge.
+
 ## Preparation
+
 ### Wio Terminal
+
 Wio Terminal is the perfect tool for getting started with IoT and TinyML. It is designed and produced by Seeed Studio and is well supported by various TinyML reasoning frameworks.
 
 ![Wio Terminal](/Lesson-01/images/Wio-Terminal.jpeg)
@@ -41,13 +48,15 @@ Wio Terminal is the perfect tool for getting started with IoT and TinyML. It is 
 The Wio Terminal is using an ATSAMD51P19 microcontroller with ARM Cortex-M4F running at 120MHz (boost up to 200MHz), 4MB of external flash memory, and 192KB of RAM. Wireless connectivity with Realtek RTL8720DN support. It is compatible with Arduino and MicroPython. It supports both Bluetooth and Wi-Fi providing a solid foundation for IoT projects. There is a 2.4-inch LCD screen on Wio Terminal, an on-board IMU (LIS3DHTR), microphone, buzzer, microSD card slot, light sensor, and IR emitter (IR 940nm). Most importantly there are two multi-functional Grove ports onboard for the Grove ecosystem and Raspberry Pi compatible 40-pin GPIO pins for additional add-on support.
 
 ![Wio Terminal](/Lesson-01/images/Wio-Terminal-2.png)​
+
 ### Codecraft
+
 Software-wise we will be using Codecraft, a graphical programming platform. Powered by Edge Impulse, TinyML is easily accessible by beginners using Codecraft. It provides a beginner-friendly (yet powerful) web interface and toolkit for the whole TinyMl pipeline starting from data collection all the way up to model deployment and extensive use.
 Codecraft is a user-friendly development platform for machine learning on edge devices.
 ​
 
 **So, let's quickly go through how to use it to achieve our machine learning journey.**
- 
+
 Click the icon of Wio Terminal in Codecraft home screen to enter Wio Terminal's embedded machine learning interface.
 
 ![Codecraft home screen](/Lesson-01/images/L01-cc-01.png)
@@ -55,6 +64,7 @@ Click the icon of Wio Terminal in Codecraft home screen to enter Wio Terminal's 
 Then
 
 ![Model Creation](/Lesson-01/images/L01-cc-02.png)
+
 #### ​
 
 #### 1. Model Creation
@@ -82,12 +92,14 @@ Then
 ![mark-bj_0001_10.png](/Lesson-01/images/mark-bj_0001_10.png) **Model framework according to the sensor:** You can create a model here by selecting the sensor you are going to use. Click the corresponding icon to create a model using a particular sensor. After creating a new model, the interface will automatically jump to the "Data Acquisition" interface.
 
 ![mark-bj_0001_11.png](/Lesson-01/images/mark-bj_0001_11.png) **My models:** You can click here and view all the models you have created.
+
 #### 2. Data Acquisition
+
 ![Data Acquisition](/Lesson-01/images/L01-cc-04.png)
 
 ![mark-bj_0011_1.png](/Lesson-01/images/mark-bj_0011_1.png) **Connect:** You can connect your device here.
 
-![mark-bj_0010_2.png](/Lesson-01/images/mark-bj_0010_2.png) **Upload: ** Click here to upload your program.
+![mark-bj_0010_2.png](/Lesson-01/images/mark-bj_0010_2.png) **Upload:** Click here to upload your program.
 
 ![mark-bj_0009_3.png](/Lesson-01/images/mark-bj_0009_3.png)  **Data Acquisition:** The second step of TinyML.
 
@@ -104,7 +116,9 @@ Then
 ![mark-bj_0003_9.png](/Lesson-01/images/mark-bj_0003_9.png) **Labels:** There are default labels on the right side of the data acquisition interface. You can add and delete labels. To **Add a** custom label: Click "+". **To Delete** the label: mouse over the label, an "x" will appear in the upper left corner of the label, click the "x" to delete it. To **Modify** the label: click on the label that will appear to modify the label pop-up window.
 
 ![mark-bj_0001_10.png](/Lesson-01/images/mark-bj_0001_10.png) **Operation on data:** You can delete, rename and download data here.
-#### 3. Training & Deployment:
+
+#### 3. Training & Deployment
+
 ![Training & Deployment](L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/../../images/L01-cc-05.png)
 
 ![mark-bj_0011_1.png](/Lesson-01/images/mark-bj_0011_1.png) **Training & Deployment:** The third step of TinyML.
@@ -122,10 +136,14 @@ Then
 ![mark-bj_0005_7.png](/Lesson-01/images/mark-bj_0005_7.png) **Log:** During training, the "Log" screen displays a training log. By observing the "Log", you can deduce the model performance.
 
 ![mark-bj_0004_8.png](/Lesson-01/images/mark-bj_0004_8.png) **Model deployment:** Click here to deploy the ideal model.
+
 #### 4. Programming
+
 ![rogramming](L1-Introduction-to-TinyML-using-Wio-Terminal-and-Codecraft/images/../../images/L01-cc-06.png)
 
 You can complete the program by dragging and dropping the blocks. The course also provides the most concise sample code. You can find the corresponding blocks according to the block color.
+
 ### Example Tutorials
+
 To help understand the use of embedded machine learning. We provide 7 template projects. You can learn how to use Codecraft for embedded machine learning based on these template model examples. We hope these examples can help you in building more interesting applications.
 ​
