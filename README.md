@@ -17,7 +17,7 @@ To this end, the team has written the TinyML with Wio Terminal Free Course for B
 
 ## Course Overview
 
-![No-code Programming to Get Started with TinyML](./images/No-code-Programming-to-Get-Started-with-TinyML-title-1280x640.png)](https://www.seeedstudio.com/wio-terminal-tinyml.html)
+![No-code Programming to Get Started with TinyML](./images/No-code-Programming-to-Get-Started-with-TinyML-title-1280x640.png)
 
 Learn how to train and deploy deep neural network models on Cortex-M core microcontroller devices like Wio Terminal using a graphical programming tool know as Codecraft. Course content features seven detailed step-by-step projects that allow the students to grasp basic ideas about modern Machine Learning and how it can be used in microcontrollers with low-power consumption and smaller footprint to create intelligent, connected systems. After completing this course, students will be able to design and implement their own Machine Learning enabled projects on Cortex-M core microcontrollers starting from defining a problem to gathering data and training neural network models. Finally deploying it to the device to display inference results or control other hardware appliances based on inference data.
 
