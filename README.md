@@ -10,14 +10,14 @@
 
 ## Hello World of AI
 
-[![Hello World of AI](./images/No-code-Programming-to-Get-Started-with-TinyML-title-1280x640.png)](https://www.seeedstudio.com/wio-terminal-tinyml.html)
+![Hello World of AI](./images/Hello-World-Of-AI-title.png)
 
 [Seeed Studio](https://www.seeedstudio.com/) released a feature in June 2021: **[Hello World of AI](https://www.seeedstudio.com/wio-terminal-tinyml.html)**, where [Codecraft](https://ide.tinkergen.com/https:/) Graphical Programming for TinyML and a number of TinyML projects using [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.htmlhttps:/) were introduced and demonstrated. TinkerGen is the team responsible for educational products at Seeed Studio, and we believe that Codecraft's support for TinyML is of great importance, as it significantly lowers the barrier for users to learn and use TinyML technology. Without having to deal with a complex programming environment and knowledge of algorithms, users can start collecting data, training models and programming deployments for TinyML projects easily and quickly through browsers and graphical programming.
 To this end, the team has written the TinyML with Wio Terminal Free Course for Beginners and made it available for download as a PDF. To help more users and educational institutions use and promote this exciting technology. We have further open sourced the entire course on GitHub.
 
 ## Course Overview
 
-![No-code Programming to Get Started with TinyML](./images/No-code-Programming-to-Get-Started-with-TinyML-title.png)
+![No-code Programming to Get Started with TinyML](./images/No-code-Programming-to-Get-Started-with-TinyML-title-1280x640.png)](https://www.seeedstudio.com/wio-terminal-tinyml.html)
 
 Learn how to train and deploy deep neural network models on Cortex-M core microcontroller devices like Wio Terminal using a graphical programming tool know as Codecraft. Course content features seven detailed step-by-step projects that allow the students to grasp basic ideas about modern Machine Learning and how it can be used in microcontrollers with low-power consumption and smaller footprint to create intelligent, connected systems. After completing this course, students will be able to design and implement their own Machine Learning enabled projects on Cortex-M core microcontrollers starting from defining a problem to gathering data and training neural network models. Finally deploying it to the device to display inference results or control other hardware appliances based on inference data.
 
