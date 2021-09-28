@@ -114,9 +114,9 @@ Wio Terminal 连接后，在 Codecraft 界面，点击"上传"即可上传默认
 
 在数据收集过程中，Wio Terminal 将会显示图标来表示当前进度，我们可以根据 Wio Terminal 显示图标来完成数据采集。
 
-![L2f.png](../images/hongdeng.png)这个信号表示正在 Wio Terminal 收集数据。
+![L2f.png](../images/L03-20.png) 这个信号表示正在 Wio Terminal 收集数据。
 
-![L2g.png](../images/lvdeng.png)OK表示数据收集完成。
+![L2g.png](../images/L03-21.png) OK表示数据收集完成。
 
 ![image.png](../images/L3-zh-cn-b7.png)
 
