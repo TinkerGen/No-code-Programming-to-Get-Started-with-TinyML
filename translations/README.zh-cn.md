@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/github/license/microsoft/ML-For-Beginners.svg)](https://github.com/No-code-Programming-to-Get-Started-with-TinyML/blob/master/LICENSE)
+﻿[![GitHub license](https://img.shields.io/github/license/microsoft/ML-For-Beginners.svg)](https://github.com/No-code-Programming-to-Get-Started-with-TinyML/blob/master/LICENSE)
 [![image](https://img.shields.io/badge/build-Codecraft-%233E9EF9)](https://ide.tinkergen.com/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 

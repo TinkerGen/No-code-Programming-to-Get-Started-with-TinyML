@@ -4,7 +4,7 @@
 
 In this lesson, we'll take on a task of gesture recognition where we will attempt to recognize three gestures (FLIP, WAVE, and IDLE) using Wio Terminal's built-in 3-axis accelerometer.
 
-![L02-image-01.png](/Lesson-02/images/L02-image-01.png)
+![L02-image-01.png](images/L02-image-01.png)
 
 It is quite hard to accomplish using rule-based programming because gestures are not performed the same way all the time. Trying to solve this problem using traditional Programming requires hundred of different rules for each mode of action. Even if we consider an idealized situation, we still miss a lot of motions such as speed, angle, and direction. A slight change in these factors requires a new set of rules to be defined but machine learning can handle these variations very easily.
 
@@ -12,13 +12,13 @@ It is quite hard to accomplish using rule-based programming because gestures are
 
 Wio Terminal displays the current recognition results for the Wio Terminal's actions in real-time. FLIP, WAVE, and IDLE.
 
-![wave](/Lesson-02/images/L02-image-02.png) ![flip](/Lesson-02/images/L02-image-03.png) ![idle](/Lesson-02/images/L02-image-04.png)
+![wave](images/L02-image-02.png) ![flip](images/L02-image-03.png) ![idle](images/L02-image-04.png)
 
 ### Preparation
 
 Hardware requirements: Wio Terminal
 Connection method:
-![L02-image-05.png](/Lesson-02/images/L02-image-05.png)
+![L02-image-05.png](images/L02-image-05.png)
 
 ## Theory
 
@@ -30,11 +30,11 @@ Accelerometers are capable of measuring acceleration either in meters per second
 
 The first accelerometer was called the Atwood machine. It was invented by an English physicist George Atwood.
 
-![L02-image-07.png](/Lesson-02/images/L02-image-07.png)
+![L02-image-07.png](images/L02-image-07.png)
 
 The accelerometers commonly used in mobile phones are MEMS (Microelectromechanical) accelerometers. The module is used in Wio Terminal is called 3-Axis Digital Accelerometer (LIS3DHTR). Generally, the internal structure of accelerometers consists of Capacitive Plates. Some types of accelerometers use fixed capacitive plates, while some of them have the plates attached to minuscule springs that move internally depending upon the acceleration forces acting on the sensor.
 
-![L02-image-08.png](/Lesson-02/images/L02-image-08.png)
+![L02-image-08.png](images/L02-image-08.png)
 
 ## Practice
 
@@ -54,15 +54,15 @@ The accelerometers commonly used in mobile phones are MEMS (Microelectromechanic
 
 Click on "Model Creation", click on "Motion Recognition(Built-in accelerometer)", as shown in steps 1 and 2 below.
 
-![L02-image-09.png](/Lesson-02/images/L02-image-09.png)
+![L02-image-09.png](images/L02-image-09.png)
 
 Enter a NAME according to the requirements.
 
-![L02-image-10](/Lesson-02/images/L02-image-10.png)
+![L02-image-10](images/L02-image-10.png)
 
 Click "Ok"
 
-![L02-image-11.png](/Lesson-02/images/L02-image-11.png)
+![L02-image-11.png](images/L02-image-11.png)
 
 Click "Ok" and it will automatically jump to the Data Acquisition interface.
 
@@ -70,35 +70,35 @@ Click "Ok" and it will automatically jump to the Data Acquisition interface.
 
 #### 2.1 Default label
 
-![L02-image-12.png](/Lesson-02/images/L02-image-12.png)
+![L02-image-12.png](images/L02-image-12.png)
 
-![L02-image-13.png](/Lesson-02/images/L02-image-13.png)
+![L02-image-13.png](images/L02-image-13.png)
 
 #### 2.2 Connect the device and upload the default data acquisition program in Codecraft
 
-When the Wio Terminal is connected, in the Codecraft surface, click![L02-image-13-2.png](/Lesson-02/images/L02-image-13-2.png) as shown in the figure. This action will upload the default data acquisition program.
+When the Wio Terminal is connected, in the Codecraft surface, click![L02-image-13-2.png](images/L02-image-13-2.png) as shown in the figure. This action will upload the default data acquisition program.
 
-![L02-image-14.png](/Lesson-02/images/L02-image-14.png)
+![L02-image-14.png](images/L02-image-14.png)
 
 The "Upload" pop-up window will appear as shown in the figure below.
 Select the serial port number corresponding to the current Wio Terminal (not necessarily COM26 as shown in the figure) and click the "OK" button.
 
-![L02-image-15.png](/Lesson-02/images/L02-image-15.png)
+![L02-image-15.png](images/L02-image-15.png)
 
 A pop-up window indicates that the program is being uploaded, please wait...
 
-![L02-image-16.png](/Lesson-02/images/L02-image-16.png)
+![L02-image-16.png](images/L02-image-16.png)
 
 Usually, it takes 10 seconds to upload.  Once the program is uploaded, the "Upload Successful"  window will appear on the screen shown below. This is shown in the image below.
 
-![L02-image-17.png](/Lesson-02/images/L02-image-17.png)
+![L02-image-17.png](images/L02-image-17.png)
 
 Click "Roger" to close the upload success pop-up window and return to the programming screen.
 
-> ![Caution](/Lesson-02/images/L02-attention.png) **Caution**
+> ![Caution](images/L02-attention.png) **Caution**
 For the web version of Codecraft,  you may get the message in the image below if you don't install or run the Device Assistant.
 >
-> ![L02-image-18.png](/Lesson-02/images/L02-image-18.png)
+> ![L02-image-18.png](images/L02-image-18.png)
 >
 > Check this page for further information： [Download, installation and "Device Assistance" Usage](https://www.yuque.com/tinkergen-help-en/codecraft/assistant?language=en-us).
 
@@ -106,7 +106,7 @@ For the web version of Codecraft,  you may get the message in the image below if
 
 In the upper right hyperlink, you will find a step-by-step introduction to data acquisition. Follow the instructions to collect data.
 
-![L02-image-19.png](/Lesson-02/images/L02-image-19.png)
+![L02-image-19.png](images/L02-image-19.png)
 
 **Attention:**
 
@@ -115,28 +115,28 @@ In the upper right hyperlink, you will find a step-by-step introduction to data 
 - Please notice the red tips.
 - Point the cursor over Description Texts for more detailed content.
 
-![L02-image-20.png](/Lesson-02/images/L02-image-20.png)
+![L02-image-20.png](images/L02-image-20.png)
 
-![L02-image-21.png](/Lesson-02/images/L02-image-21.png)
+![L02-image-21.png](images/L02-image-21.png)
 
 Starting and finish data acquisition according to the Wio Terminal display.
 
 This signal means data is being collected.
 
-![L02-image-22.png](/Lesson-02/images/L02-image-22.png)
+![L02-image-22.png](images/L02-image-22.png)
 
 OK means Data collection is complete.
 
-![L02-image-23.png](/Lesson-02/images/L02-image-23.png)
+![L02-image-23.png](images/L02-image-23.png)
 
 Wio Terminal shows that the data acquisition is finished and CodeCraft is still uploading the data. It takes 1~2s to transfer the data from Wio Terminal to CodeCraft.
 
 Now, the data acquisition is finished.
 
-![L02-image-24.png](/Lesson-02/images/L02-image-24.png)
+![L02-image-24.png](images/L02-image-24.png)
 
 Click on "Training & Deployment".
-![L02-image-25.png](/Lesson-02/images/L02-image-25.png)
+![L02-image-25.png](images/L02-image-25.png)
 
 ### Step 3. Training and deployment
 
@@ -146,46 +146,46 @@ Select the suitable neural network size: one of small, medium, and large.
 Set parameters, number of training cycles (positive integer), learning rate (number from 0 to 1), and minimum confidence rating(number from 0 to 1).
 The interface provides default parameter values.
 
-![L02-image-26.png](/Lesson-02/images/L02-image-26.png)
+![L02-image-26.png](images/L02-image-26.png)
 
 #### 3.2 Start training the model
 
 Click "Start training".
 
-![L02-image-27.png](/Lesson-02/images/L02-image-27.png)
+![L02-image-27.png](images/L02-image-27.png)
 
 When you click "Start training", the interface displays "Loading...".
 
-![L02-image-28.png](/Lesson-02/images/L02-image-28.png)
+![L02-image-28.png](images/L02-image-28.png)
 
 The duration of "Loading.." varies depending on the size of the selected neural network (small, medium and large) and the number of training cycles. Larger is the network size and number of training cycles, the longer it takes.
 
 You can also infer waiting time by observing the "Log". In the figure below, "Epoch: 22/30" indicates the total number of training rounds is 30 while 22 rounds have been trained.
 
-![L02-image-29.png](/Lesson-02/images/L02-image-29.png)
+![L02-image-29.png](images/L02-image-29.png)
 
 After loading, "TrainModel Job Completed" appears in the "Log" and a "Model Training Report" shows up on the interface.
 
-![L02-image-30.png](/Lesson-02/images/L02-image-30.png)
+![L02-image-30.png](images/L02-image-30.png)
 
 #### 3.3 Observe the model performance to select the ideal model
 
 In the "Model Training Report" window, you can observe training results including the accuracy, loss and performance of the model.
 If the training results are not satisfactory, you can go back to the first step of training the model, select another size of the neural network or adjust the parameters and train it until you get a model with satisfactory results.
 
-![L02-image-31.png](/Lesson-02/images/L02-image-31.png)
+![L02-image-31.png](images/L02-image-31.png)
 
 #### 3.4 Deploy the ideal model
 
 In the "Model Training Report" window, click "Deploy Model".
 
-![L02-image-32.png](/Lesson-02/images/L02-image-32.png)
+![L02-image-32.png](images/L02-image-32.png)
 
-![L02-image-33.png](/Lesson-02/images/L02-image-33.png)
+![L02-image-33.png](images/L02-image-33.png)
 
 Once the deployment is completed, click "Ok" to jump to the "Programming" window.
 
-![L02-image-34.png](/Lesson-02/images/L02-image-34.png)
+![L02-image-34.png](images/L02-image-34.png)
 
 ### Step 4. Use and programming
 
@@ -193,27 +193,27 @@ Once the deployment is completed, click "Ok" to jump to the "Programming" window
 
 In the "Programming" interface, click on "Use Model" to use the deployed model.
 
-![L02-image-35.png](/Lesson-02/images/L02-image-35.png)
+![L02-image-35.png](images/L02-image-35.png)
 
 Try to use your model by writing the following program.
 
-![L02-image-36.png](/Lesson-02/images/L02-image-36.png)
+![L02-image-36.png](images/L02-image-36.png)
 
 #### 4.2 Upload the program to Wio Terminal
 
 Click the "Upload" button.
 
-![L02-image-37.png](/Lesson-02/images/L02-image-37.png)
+![L02-image-37.png](images/L02-image-37.png)
 
 Select the serial port number corresponding to the current Wio Terminal (not necessarily COM26 as shown in the figure) and click the "OK" button.
 
-![L02-image-38.png](/Lesson-02/images/L02-image-38.png)
+![L02-image-38.png](images/L02-image-38.png)
 
 The first upload time is usually long and it increases with the complexity of the model. The upload time for smaller models is about 4 minutes or longer(depending on the performance of your machine).
 
-![L02-image-39.png](/Lesson-02/images/L02-image-39.png)
+![L02-image-39.png](images/L02-image-39.png)
 
-![L02-image-40.png](/Lesson-02/images/L02-image-40.png)
+![L02-image-40.png](images/L02-image-40.png)
 
 #### 4.3 Wio Terminal test model
 
@@ -232,7 +232,7 @@ Input：
   - Way to get data
   - Quality of dataset
 
-![L02-image-41.png](/Lesson-02/images/L02-image-41.png)
+![L02-image-41.png](images/L02-image-41.png)
 
 ### Input
 
@@ -243,7 +243,7 @@ Input：
 As the name suggests,  data is labeled when you add meaningful labels and tags or assign classes to the raw data that you've collected. This means that you add labels to data and set a target.  The AI learns by example.
 Now, let's see how this works. If you have a set of fruits labeled with "Lemon", "Orange" or "Banana". The classification trains your model to tell if the fruit is "Lemon".  When the training is over, newly added fruit will be classified into one of these three groups. The input element may belong to multiple categories at once.
 
-![L02-image-42.png](/Lesson-02/images/L02-image-42.png)
+![L02-image-42.png](images/L02-image-42.png)
 
 #### 2 Dataset
 
@@ -252,15 +252,15 @@ Now, let's see how this works. If you have a set of fruits labeled with "Lemon",
 If you are looking for a working and reliable software, you need a large amount of relevant, high-quality data. It means that you have to train your ML model by providing it with thousands of examples and it memorizes the correlations between your data pieces.
 The Full Dataset is consists of training set and testing set:
 
-![L02-image-43.png](/Lesson-02/images/L02-image-43.png)​
+![L02-image-43.png](images/L02-image-43.png)​
 
 The data you feed to the model is called training dataset while the data you provide to the model to predict is called testing set.
 
-![L02-image-44.jpg](/Lesson-02/images/L02-image-44.jpg)​
+![L02-image-44.jpg](images/L02-image-44.jpg)​
 
 In addition, the training set can be divided into two groups. We can observe the Log after we start training, finding that Training Set will be split into "Training Set" and "Validation Set".
 
-![L02-image-44-2.png](/Lesson-02/images/L02-image-44-2.png)
+![L02-image-44-2.png](images/L02-image-44-2.png)
 
 **Training set:** Training set is the data that an algorithm uses to learn.
 
@@ -284,7 +284,7 @@ The amount of required training data depends upon a lot of factors. As a rule of
 
 ##### 2.3 How to get Data
 
-![L02-image-45.png](/Lesson-02/images/L02-image-45.png)​
+![L02-image-45.png](images/L02-image-45.png)​
 
 - Get by yourself: using the Wio Terminal with sensors and other devices.
 - Open Source: some data science communities like Kaggle.  
@@ -310,11 +310,11 @@ Most classification data sets do not have equal number of instances in each clas
 What happens to our models when we train on an imbalanced dataset?
 Our models look at the data and cleverly decides to always predict "Class-1" and achieve high accuracy, 90%.
 
-![L02-image-46.png](/Lesson-02/images/L02-image-46.png)
+![L02-image-46.png](images/L02-image-46.png)
 
 How to Solve the Imbalance?
 
-![L02-image-47.png](/Lesson-02/images/L02-image-47.png)
+![L02-image-47.png](images/L02-image-47.png)
 
 **Over-sampling (Up Sampling):** Increases the number of minority class members in the training set.
 
@@ -328,7 +328,7 @@ How to Solve the Imbalance?
 
 2. TinyML practice
 
-![L02-image-48.png](/Lesson-02/images/L02-image-48.png)
+![L02-image-48.png](images/L02-image-48.png)
 
 3. ML theory (Input)
 
