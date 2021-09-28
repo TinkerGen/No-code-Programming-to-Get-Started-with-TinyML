@@ -12,7 +12,7 @@
 
 [![Hello World of AI](../images/Hello-World-Of-AI-title.png)](https://www.seeedstudio.com/wio-terminal-tinyml.html)
 
-[Seeed Studio](https://www.seeedstudio.com/) 于2021年6月发布了一个专题：**[Hello World of AI](https://www.seeedstudio.com/wio-terminal-tinyml.html)**，在这个专题上介绍了图形化编程工具 [Codecraft](https://ide.tinkergen.com/https:/) 已支持嵌入式机器学习（TinyML），并展示了使用和  [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.htmlhttps:/) 进行嵌入式机器学习的项目。TinkerGen （在中国称为柴火创客教育）是 Seeed Studio 负责教育产品的团队，我们认为 Codecraft 对 TinyML 的支持有着非常重大的意义，它极大的降低了用户学习和使用 TinyML 技术的门槛。用户不需要面对复杂的编程环境，算法知识，就能通过浏览器和图形化编程，简单快速的开始着手为 TinyML 项目采集数据、训练模型和编程部署。
+[Seeed Studio](https://www.seeedstudio.com/) 于2021年6月发布了一个专题：**[Hello World of AI](https://www.seeedstudio.com/wio-terminal-tinyml.html)**，在这个专题上介绍了图形化编程工具 [Codecraft](https://ide.tinkergen.com) 已支持嵌入式机器学习（TinyML），并展示了使用和  [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html) 进行嵌入式机器学习的项目。TinkerGen （在中国称为柴火创客教育）是 Seeed Studio 负责教育产品的团队，我们认为 Codecraft 对 TinyML 的支持有着非常重大的意义，它极大的降低了用户学习和使用 TinyML 技术的门槛。用户不需要面对复杂的编程环境，算法知识，就能通过浏览器和图形化编程，简单快速的开始着手为 TinyML 项目采集数据、训练模型和编程部署。
 为此，团队撰写了《图形化编程之嵌入式机器学习入门 —— 用 Wio Terminal 玩转 TinyML》课程，并以 PDF 的方式提供给用户下载。为了能帮助更多的用户和教育机构，使用和推广这一另人激动人心的技术。我们进一步在 GitHub 上开源了整个课程。
 
 ## 课程基本信息
