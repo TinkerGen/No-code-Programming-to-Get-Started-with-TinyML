@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/github/license/microsoft/ML-For-Beginners.svg)](https://github.com/No-code-Programming-to-Get-Started-with-TinyML/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/microsoft/ML-For-Beginners.svg)](https://github.com/TinkerGen/No-code-Programming-to-Get-Started-with-TinyML/blob/main/LICENSE)
 [![image](https://img.shields.io/badge/build-Codecraft-%233E9EF9)](https://ide.tinkergen.com/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
@@ -12,7 +12,7 @@
 
 ![Hello World of AI](./images/Hello-World-Of-AI-title.png)
 
-[Seeed Studio](https://www.seeedstudio.com/) released a feature in June 2021: **[Hello World of AI](https://www.seeedstudio.com/wio-terminal-tinyml.html)**, where [Codecraft](https://ide.tinkergen.com/https:/) Graphical Programming for TinyML and a number of TinyML projects using [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.htmlhttps:/) were introduced and demonstrated. TinkerGen is the team responsible for educational products at Seeed Studio, and we believe that Codecraft's support for TinyML is of great importance, as it significantly lowers the barrier for users to learn and use TinyML technology. Without having to deal with a complex programming environment and knowledge of algorithms, users can start collecting data, training models and programming deployments for TinyML projects easily and quickly through browsers and graphical programming.
+[Seeed Studio](https://www.seeedstudio.com/) released a feature in June 2021: **[Hello World of AI](https://www.seeedstudio.com/wio-terminal-tinyml.html)**, where [Codecraft](https://ide.tinkergen.com/https:/) Graphical Programming for TinyML and a number of TinyML projects using [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.htmlhttps:/) were introduced and demonstrated. TinkerGen is the team responsible for educational products at Seeed Studio (now called Seeed Education), and we believe that Codecraft's support for TinyML is of great importance, as it significantly lowers the barrier for users to learn and use TinyML technology. Without having to deal with a complex programming environment and knowledge of algorithms, users can start collecting data, training models and programming deployments for TinyML projects easily and quickly through browsers and graphical programming.
 To this end, the team has written the TinyML with Wio Terminal Free Course for Beginners and made it available for download as a PDF. To help more users and educational institutions use and promote this exciting technology. We have further open sourced the entire course on GitHub.
 
 ## Course Overview
