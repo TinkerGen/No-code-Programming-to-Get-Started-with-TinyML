@@ -247,7 +247,7 @@ Wio Terminal 连接后，在 Codecraft 界面，点击"上传"即可上传默认
 
 2. 嵌入式机器学习实践
 
-![L2 l7.png](https://cdn.nlark.com/yuque/0/2021/png/22391310/1631945837820-54425377-0d43-4c1e-a8be-d4e137bb8f21.png#clientId=ubafdcfc5-4745-4&from=drop&height=230&id=u32e5eb39&margin=%5Bobject%20Object%5D&name=L2%20l7.png&originHeight=351&originWidth=374&originalType=binary&ratio=1&size=26772&status=done&style=none&taskId=u29d73ff4-0bbd-48ec-a2d2-0c79d5c8c13&width=245)
+![L2 l7.png](../images/renhe.png)
 
 3. 决定网络结构的变量
    - 隐藏单元数
