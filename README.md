@@ -86,7 +86,7 @@ Course contents are based on the use of Codecraft which simplifies data collecti
 
 ![PDF preview](images/Book-pdf-preview.png)
 
-You can [download](pdf/No-code_Programming_to_Get_Started_with_TinyML.pdf) the PDF version of this course.
+You can [download](https://tinkergen.github.io/No-code-Programming-to-Get-Started-with-TinyML/pdf/No-code_Programming_to_Get_Started_with_TinyML.pdf) the PDF version of this course.
 
 ## Help Wanted
 
