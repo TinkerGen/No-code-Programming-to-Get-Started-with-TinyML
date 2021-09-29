@@ -248,7 +248,7 @@ Wio Terminal 连接后，在 Codecraft 界面，点击"上传"即可上传默认
 
 ![8.png](../images/L3-zh-cn-h2.png)
 
-而 F1 分数与准确率和召回率相关的计算公式为：
+而 F1 分数与准确率（precision）和召回率（recall）相关的计算公式为：
 
 ![L3 h3.png](../images/L3-zh-cn-h3.png)
 
