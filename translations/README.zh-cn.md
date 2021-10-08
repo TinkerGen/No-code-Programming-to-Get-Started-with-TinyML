@@ -84,7 +84,7 @@ Codecraft 的使用，使得数据收集、模型训练的流程得到了简化�
 
 ![PDF preview](../images/Book-pdf-preview.zh-cn.png)
 
-你可以 [下载](../pdf/No-code_Programming_to_Get_Started_with_TinyML.zh-cn.pdf) 本课程的 pdf 版本。
+你可以 [下载](https://tinkergen.github.io/No-code-Programming-to-Get-Started-with-TinyML/pdf/No-code_Programming_to_Get_Started_with_TinyML.zh-cn.pdf) 本课程的 pdf 版本。
 
 ## 我们需要你的帮助
 
