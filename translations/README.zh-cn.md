@@ -1,4 +1,4 @@
-﻿[![GitHub license](https://img.shields.io/github/license/microsoft/ML-For-Beginners.svg)](https://github.com/TinkerGen/No-code-Programming-to-Get-Started-with-TinyML/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/microsoft/ML-For-Beginners.svg)](https://github.com/TinkerGen/No-code-Programming-to-Get-Started-with-TinyML/blob/main/LICENSE)
 [![image](https://img.shields.io/badge/build-Codecraft-%233E9EF9)](https://ide.tinkergen.com/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
@@ -82,9 +82,9 @@ Codecraft 的使用，使得数据收集、模型训练的流程得到了简化�
 
 ## 获取课程的 PDF 版本
 
-![PDF preview](../images/Book-pdf-preview.zh-cn.png)
-
-你可以 [下载]([../pdf/No-code_Programming_to_Get_Started_with_TinyML.zh-cn.pdf](https://tinkergen.github.io/No-code-Programming-to-Get-Started-with-TinyML/pdf/No-code_Programming_to_Get_Started_with_TinyML.zh-cn.pdf)) 本课程的 pdf 版本。
+<<<<<<< HEAD
+你可以 [下载](../pdf/No-code_Programming_to_Get_Started_with_TinyML_zh-cn.pdf) 本课程的 pdf 版本。
+=======
 
 ## 我们需要你的帮助
 
